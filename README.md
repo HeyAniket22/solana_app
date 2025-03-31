@@ -1,26 +1,70 @@
-🚀 Solana Wallet Integration & Token Management A frontend application that integrates with the Solana blockchain, allowing users to create and manage SPL tokens seamlessly.  
-📌 Features 
-🔹 Solana Wallet Integration 
-Connect and disconnect Solana wallets (Phantom, Solflare, etc.).  
-Display wallet address and SOL balance.  
-Handle authentication errors and connection failures.  
-🔹 Smart Contract Interaction 
-Token Creation: Users can create SPL tokens using the Solana SPL Token Program.  
-Mint Tokens: Mint new tokens and receive success notifications.  
-Send Tokens: Transfer tokens to other accounts with transaction feedback.  
-Transaction Handling: Ensure smooth transaction processing with real-time feedback.  
-🔹 UI/UX Design 
-Modern, responsive, and easy-to-navigate interface.  
-Clear wallet connection and token management UI.  
-Transaction status updates with loading indicators and success/error messages.  
-🔹 Blockchain Data Fetching 
-Display SOL and token balances for the connected wallet.  
-Fetch and display transaction history for minting and transfers.  
-🔹 Performance & Code Quality 
-Modular and optimized code for smooth interactions.  
-Proper error handling and edge case management.  
-Fully responsive design for mobile and desktop users.  
-📖 Tech Stack 
-Frontend: React.js, TypeScript  
-Blockchain: Solana Web3.js, SPL Token Program  
-Wallet: Phantom, Solflare
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
